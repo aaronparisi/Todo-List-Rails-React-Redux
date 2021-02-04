@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let navBar = document.getElementById('navBar')
-  let sticky = navBar.offsetTop
+  let navContainer = document.getElementById('nav-container')
+  let sticky = navContainer.offsetTop
 
   const checkScroll = () => {
     if (window.pageYOffset > sticky) {

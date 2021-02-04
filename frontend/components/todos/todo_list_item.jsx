@@ -16,7 +16,7 @@ export function TodoListItem(
 
   const statusString = () => {
     if (todo.done) {
-      return `Completed at ${formatDate(todo.completedAt)}`
+      return `Completed ${formatDate(todo.completedAt)}`
     } else {
       return `Due ${formatDate(todo.dueAt)}`
     }
