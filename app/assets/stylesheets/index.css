@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, #90e5ff, rgb(170 202 235));
+  background: linear-gradient(to right, #90e5ff, rgb(170, 202, 235));
   color: #616161;
 }
 
